@@ -26,3 +26,32 @@ body {
     font-size: 2rem;
     font-weight: 700;
 }
+.form{
+    display: inline;
+}
+.form  input{
+    display: inline;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    margin-left: 70px;
+    padding: 30px 0;
+    
+}
+form  input:focus{
+    outline: none;
+}
+.form  label{
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left:20px !important;
+}
+.form button{
+    width: 100px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.form button:hover{
+    background-color: aqua;
+}
